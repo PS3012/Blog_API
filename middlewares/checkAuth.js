@@ -1,4 +1,5 @@
 import jwt from "jsonwebtoken";
+import {} from "dotenv/config.js";
 
 const checkAuth = (req, res, next) => {
   try {

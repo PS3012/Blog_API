@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import {} from "dotenv";
+import {} from "dotenv/config.js";
 import User from "../../models/user.model.js";
 import { emailRegex } from "../../utils/constants.js";
 
